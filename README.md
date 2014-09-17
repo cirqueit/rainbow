@@ -1,4 +1,9 @@
+
+
 #Rainbow Parentheses Improved
+
+> editted to allow users to set punctuation string or disable it by setting to empty string  
+> `let g:rainbow_punctuation = ''`
 
 This is a fork of [Rainbow Parentheses Improved](http://www.vim.org/scripts/script.php?script_id=4176) by [luo chen](http://www.vim.org/account/profile.php?user_id=53618).
 
