@@ -72,9 +72,9 @@ func! rainbow#load(...)
     endif
     
     if exists('g:rainbow_punctuation')
-        let b:operators = '"'.g:rainbow_punctuation.'"'
-    else
         let b:operators = (a:0 < 2) ? '"\v[{\[(<_"''`#*/>)\]}]@![[:punct:]]|\*/@!|/[/*]@!|\<#@!|#@<!\>"' : a:2
+    else
+        let b:operators = ''
     endif
 
     if b:operators != ''
